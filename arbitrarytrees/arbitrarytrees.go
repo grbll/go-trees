@@ -1,4 +1,4 @@
-package trees
+package arbitrarytrees
 
 type Tree[T any] interface {
 	Parent() Tree[T]
